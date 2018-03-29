@@ -1,0 +1,77 @@
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* -------------------------------------------------------- */
+.one-half h2 {
+  margin: 0 0 5px 0;
+}
+
+.one-half p {
+  margin: 5px 0 15px 0;
+}
+.row{
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 10px;
+  align-items: center;
+  /*  */
+  background: #F8F8F8;
+}
+
+.row .bottomSection {
+  margin: 0;
+}
+
+.form-group {
+  padding: 0px;
+}
+p .radio-inline {
+  padding: 0;
+}
+
+.six {
+  margin: 20px;
+}
+
+.tex label {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 900;
+}
+.form-group .question {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.tex input {
+    display:block;
+    padding: 10px 5px 5px 5px;
+}
+.tex .u-full-width{
+  font-size: 15px;
+
+}
+
+.columns {
+  margin-bottom: 10px;
+}
+
+.button {
+  color: white;
+  background: #ff9d2a;
+  padding: 10px;
+  font-size: 20px;
+}

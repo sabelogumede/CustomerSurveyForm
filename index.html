@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+       <div class="one-half column">
+         <h2>Tell us what we got right</h2>
+         <p> Please provide your experience feedback below.</p>
+         <form>
+          <div class="row topSection">
+
+           <div class="form-group">
+               <label class="question">How was communication?</label>
+               <p>
+                   <label class="radio-inline">
+                       <input type="radio" name="experience" id="radio_experience" value="bad" >
+                       <i class="fa fa-frown-o fa-2x" aria-hidden="true"></i> bad
+                   </label>
+                   <label class="radio-inline">
+                       <input type="radio" name="experience" id="radio_experience" value="average" >
+                       <i class="fa fa-meh-o fa-2x" aria-hidden="true"></i> Just OK
+                   </label>
+                   <label class="radio-inline">
+                       <input type="radio" name="experience" id="radio_experience" value="good" >
+                       <i class="fa fa-smile-o fa-2x" aria-hidden="true"></i> Good
+                   </label>
+               </p>
+           </div>
+           <div class="form-group">
+               <label class="question">Was technical support helpful?</label>
+               <p>
+                   <label class="radio-inline">
+                       <input type="radio" name="experience" id="radio_experience" value="bad" >
+                       <i class="fa fa-frown-o fa-2x" aria-hidden="true"></i> No
+                   </label>
+                   <label class="radio-inline">
+                       <input type="radio" name="experience" id="radio_experience" value="average" >
+                       <i class="fa fa-meh-o fa-2x" aria-hidden="true"></i> A bit
+                   </label>
+                   <label class="radio-inline">
+                       <input type="radio" name="experience" id="radio_experience" value="good" >
+                       <i class="fa fa-smile-o fa-2x" aria-hidden="true"></i> Yes
+                   </label>
+               </p>
+           </div>
+           <div class="form-group">
+               <label class="question">Was the responce provided on time?</label>
+               <p>
+                   <label class="radio-inline">
+                       <input type="radio" name="experience" id="radio_experience" value="bad" >
+                       <i class="fa fa-frown-o fa-2x" aria-hidden="true"></i> No
+                   </label>
+                   <label class="radio-inline">
+                       <input type="radio" name="experience" id="radio_experience" value="average" >
+                       <i class="fa fa-meh-o fa-2x" aria-hidden="true"></i> I dont know
+                   </label>
+                   <label class="radio-inline">
+                       <input type="radio" name="experience" id="radio_experience" value="good" >
+                       <i class="fa fa-smile-o fa-2x" aria-hidden="true"></i> Yes
+                   </label>
+               </p>
+           </div>
+           <div class="form-group">
+               <label class="question">Would you recommend this product to friends?</label>
+               <p>
+                   <label class="radio-inline">
+                       <input type="radio" name="experience" id="radio_experience" value="bad" >
+                       <i class="fa fa-frown-o fa-2x" aria-hidden="true"></i> No
+                   </label>
+                   <label class="radio-inline">
+                       <input type="radio" name="experience" id="radio_experience" value="average" >
+                       <i class="fa fa-meh-o fa-2x" aria-hidden="true"></i> Maybe
+                   </label>
+                   <label class="radio-inline">
+                       <input type="radio" name="experience" id="radio_experience" value="good" >
+                       <i class="fa fa-smile-o fa-2x" aria-hidden="true"></i> Yes
+                   </label>
+               </p>
+           </div>
+           <div class="form-group">
+               <label class="question">How do you rate your overall experience?</label>
+               <p>
+                   <label class="radio-inline">
+                       <input type="radio" name="experience" id="radio_experience" value="bad">
+                       <i class="fa fa-frown-o fa-2x" aria-hidden="true"></i> Bad
+                   </label>
+                   <label class="radio-inline">
+                       <input type="radio" name="experience" id="radio_experience" value="average">
+                       <i class="fa fa-meh-o fa-2x" aria-hidden="true"></i> Just OK
+                   </label>
+                   <label class="radio-inline">
+                       <input type="radio" name="experience" id="radio_experience" value="good">
+                       <i class="fa fa-smile-o fa-2x" aria-hidden="true"></i> Good
+                   </label>
+               </p>
+           </div>
+         </div>
+           <!--  -->
+           <div class="row bottomSection">
+               <h2>Personal Details</h2>
+             <div class="tex columns">
+               <label for="exampleEmailInput">Full Name</label>
+               <input class="u-full-width" type="text" placeholder="full name" id="fullName">
+             </div>
+             <div class="tex columns">
+               <label for="exampleEmailInput">Occupation</label>
+               <input class="u-full-width" type="text" placeholder="Occupation" id="ocupation">
+             </div>
+             <div class="tex columns">
+               <label for="exampleEmailInput">Age</label>
+               <input class="u-full-width" type="text" placeholder="Age" id="age">
+             </div>
+
+
+             <div class="tex columns">
+               <label for="exampleEmailInput">Your email</label>
+               <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+             </div>
+
+             <div class="six columns">
+               <label>Gender</label>
+               <p>
+                 <label class="radio-inline">
+                     <input type="radio" name="experience" id="radio_option" value="gender">
+                      Male
+                 </label>
+                 <label class="radio-inline">
+                     <input type="radio" name="experience" id="radio_experience" value="good">
+                      Female
+                 </label>
+               </p>
+             </div>
+
+             <div class="six columns">
+               <label>Prefered Method of contact</label>
+               <p>
+                 <label class="radio-inline">
+                     <input type="radio" name="experience" id="radio_option" value="email">
+                      Email
+                 </label>
+                 <label class="radio-inline">
+                     <input type="radio" name="experience" id="radio_experience" value="sms">
+                      Sms
+                 </label>
+               </p>
+             </div>
+           </div>
+
+           <!-- Button -->
+           <div class="row">
+               <div class="col-sm-12 form-group">
+                   <button type="submit" class="button btn btn-lg btn-warning pull-right" > <i class="fa fa-send-o " aria-hidden="true"></i> Send &rarr;</button>
+               </div>
+           </div>
+
+         </form>
+       </div>
+      </div>
+
+    </div>
+
+
+
+  </body>
+</html>
